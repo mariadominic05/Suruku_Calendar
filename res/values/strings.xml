@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Suruku_Calendar</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Year_id">Choose the year</string>
+    <string name="term_id">Choose the term</string>
+    
+    <string-array name="Year">
+        
+        <item>2012-2013</item>
+        <item>2013-2014</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+        <item>2017-2018</item>
+        <item>2018-2019</item>
+    </string-array>
+    
+    <string-array name="Term">
+         <item>Summer</item>
+        <item>Fall</item>
+        <item>Winter</item>
+        <item>Spring</item>
+    </string-array>
+
+</resources>

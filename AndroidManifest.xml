@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.suruku_calendar"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.suruku_calendar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity
+            android:name="com.example.suruku_calendar.MainAcitivity2"
+            android:label="Login"></activity>
+            <activity
+                android:name="com.example.suruku_calendar.MainActivity3"
+                android:label="Create a School Calender"></activity>
+            <activity
+                android:name="com.example.suruku_calendar.MainActivity4"
+                android:label="Simply import"></activity>
+            <activity 
+                android:name="com.example.suruku_calendar.MainActivity5"
+                android:label="Calendar"></activity>
+    </application>
+
+</manifest>
